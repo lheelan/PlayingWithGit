@@ -1,8 +1,41 @@
 GREAT documentation: http://git-scm.com/book/en/v2
 
+Initializing repository in existing directory
+---------------------------------------------
+> git init
+> git add Notes.txt
+> git rm somefile.txt
+> git commit -m "commit!"
+
+
+
 Clone existig repository
 ------------------------
 - copy of project you want to contribute to
-
-> git clone https://github.com/lheelan/SRazorRJigsawWalkthrough
 > git clone https://github.com/lheelan/PlayingWithGit
+
+
+Recording changes to repository
+--------------------------------
+> git status [-s]
+> git diff
+> git commit -m "commit message"
+
+
+Creating a branch
+------------------
+> git checkout -b test1
+> git commit -a -m "test1 commit"
+
+Copy branch into github
+-----------------------
+- to put things on github (online)
+git remote set-url origin
+https://lheelan@github.com/lheelan/PlayingWithGit.git
+
+- push into github
+git push origin test1
+- pop up window asking password
+
+
+

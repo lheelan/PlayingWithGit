@@ -1,0 +1,8 @@
+GREAT documentation: http://git-scm.com/book/en/v2
+
+Clone existig repository
+------------------------
+- copy of project you want to contribute to
+
+> git clone https://github.com/lheelan/SRazorRJigsawWalkthrough
+> git clone https://github.com/lheelan/PlayingWithGit

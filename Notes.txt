@@ -13,6 +13,8 @@ Clone existig repository
 ------------------------
 - copy of project you want to contribute to
 > git clone https://github.com/lheelan/PlayingWithGit
+- clone branch of project:
+>  git clone -b dev-russell https://github.com/lawrenceleejr/Sklimmer
 
 
 Recording changes to repository
@@ -24,7 +26,13 @@ Recording changes to repository
 
 Creating a branch
 ------------------
+create branch and switch to it:
 > git checkout -b test1
+
+or
+> git branch test1 
+> git checkout test1
+
 > git commit -a -m "test1 commit"
 
 Copy branch into github
